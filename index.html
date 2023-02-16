@@ -8,8 +8,10 @@
     <title>Calculator</title>
 </head>
 <body>
+
     <div id="container">
         <div id="appBg">
+            <h1>Simple Calculator</h1>
             <form name="calculator">
                 <input type="textfield" name="ans" value="" autocomplete="off" readonly>
         
@@ -26,7 +28,7 @@
                 <input type="button" value="1" onclick="document.calculator.ans.value+='1'" class="orange">
                 <input type="button" value="2" onclick="document.calculator.ans.value+='2'" class="orange">
                 <input type="button" value="3" onclick="document.calculator.ans.value+='3'" class="orange">
-                <input type="button" value="x" onclick="document.calculator.ans.value+='x'" class="gray">
+                <input type="button" value="x" onclick="document.calculator.ans.value+='*'" class="gray">
             <br>
                 <input type="button" value="0" onclick="document.calculator.ans.value+='0'" class="orange">
                 <input type="reset" value="C">
